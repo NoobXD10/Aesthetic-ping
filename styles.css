@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#box {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#ball1 {
+    background: radial-gradient(circle, red, darkred);
+}
+
+#ball2 {
+    background: radial-gradient(circle, blue, darkblue);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffcccb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
